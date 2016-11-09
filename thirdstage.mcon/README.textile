@@ -1,0 +1,44 @@
+
+h1. Message Converter
+
+
+
+
+
+h3. Requirements
+
+This project is based on the following tools
+
+* Eclipse 4.2 or higher
+* Maven Integration for Eclipse 0.12.1
+** The higher version will not work correctly.
+ 
+ 
+ 
+h3. Reference Model
+
+This library refers the existing model or libraries for message or general data representations.
+
+h4. Open MBean
+
+* An Open MBean is an MBean where the types of attributes and of operation parameters and return values are built using a small set of predefined Java classes.
+* "javax.management.openmbean API":http://docs.oracle.com/javase/7/docs/api/index.html?javax/management/openmbean/package-summary.html
+* Key classes
+** @CompositeData@, @TabularData@
+** @OpenType<T>@, @SimpleType<T>@, @ArrayType<T>@, @CompositeType@, @TabularType@ 
+
+h4. Spring Integration
+
+* "org.springframework.integration API":http://static.springsource.org/spring-integration/api/index.html?org/springframework/integration/package-summary.html
+* Key classes
+** @Message<T>@, @MessageHeaders@
+
+h4. Camel
+
+* "org.apache.camel.Message":http://camel.apache.org/maven/current/camel-core/apidocs/index.html?org/apache/camel/Message.html
+
+h4. JSR 94
+
+* "JSR 94 API (included Jess 7 API)":http://www.jessrules.com/jess/docs/71/api/
+* Key classes
+** @Rule@, @RuleExecutionSet@
